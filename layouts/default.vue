@@ -27,7 +27,7 @@ const links = [
       <UAvatar icon="i-mdi-account"/>
       <span>未登录</span>
     </UButton>
-    <span class="w-[100%] h-0.5 bg-gray-800 mt-2 mb-2"/>
+    <span class="w-[100%] h-0.5 dark:bg-gray-800 bg-gray-100 mt-2 mb-2"/>
     <UVerticalNavigation :links="links"/>
   </nav>
   <div class="mt-[90px] flex sm:ml-80 sm:mr-20 max-sm:mr-8 max-sm:ml-8">
