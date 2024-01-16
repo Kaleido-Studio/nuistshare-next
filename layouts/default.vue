@@ -11,6 +11,8 @@ const links = [
     to: '/explore'
   }
 ]
+
+const colorMode = useColorMode()
 </script>
 
 <template>
@@ -20,9 +22,13 @@ const links = [
       <h1 class="text-2xl font-bold">Nuistshare</h1>
       <span class="flex-grow"/>
       <UAvatar icon="i-mdi-account" class="flex sm:hidden"/>
+      <UButton :icon="colorMode.value === 'dark' ? 'i-material-symbols-dark-mode' : 'i-material-symbols-light-mode'"
+               @click="colorMode.value === 'light' ? colorMode.preference = 'dark' : colorMode.preference = 'light'"
+               variant="ghost" color="gray"/>
     </div>
   </nav>
-  <nav class="hidden flex-col sm:flex w-60 h-[100%] fixed left-0 top-[60px] p-2 border-r-2 dark:border-r-gray-800 border-r-gray-100">
+  <nav
+      class="hidden flex-col sm:flex w-60 h-[100%] fixed left-0 top-[60px] p-2 border-r-2 dark:border-r-gray-800 border-r-gray-100">
     <UButton to="/profile" class="w-[100%]" variant="ghost" size="lg" color="gray">
       <UAvatar icon="i-mdi-account"/>
       <span>未登录</span>

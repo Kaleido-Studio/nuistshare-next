@@ -3,6 +3,6 @@ export default defineNuxtConfig({
     devtools: {enabled: true},
     modules: ['@nuxt/ui'],
     ui: {
-        icons: ['mdi']
+        icons: ['mdi', 'material-symbols']
     }
 })
