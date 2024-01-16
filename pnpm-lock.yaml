@@ -17,6 +17,9 @@ dependencies:
   primevue:
     specifier: ^3.46.0
     version: 3.46.0(vue@3.4.14)
+  vue-collapsed:
+    specifier: ^1.3.0
+    version: 1.3.0
 
 devDependencies:
   nuxt:
@@ -6098,6 +6101,10 @@ packages:
     resolution: {integrity: sha512-oYATTQyh8XVkUWe2kaKxhxKVuuzK2Qcehe+yr3bGiaQAhK3ry2kYE4FWOfL+KO3hVFwCdLmzDQTzYhTi9C+R2A==}
     dependencies:
       ufo: 1.3.2
+
+  /vue-collapsed@1.3.0:
+    resolution: {integrity: sha512-d2qwv0fj4aaoekI+6x1RgxpoK0s5K8HLj70E+dWxIKkgzADcZ9kUrnXRazgIz9ETYkKOi6j2CWv/8+rS8Kr3LQ==}
+    dev: false
 
   /vue-demi@0.14.6(vue@3.4.14):
     resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
