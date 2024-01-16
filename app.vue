@@ -1,5 +1,14 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage/>
+  </NuxtLayout>
 </template>
+
+<style lang="postcss">
+body {
+  @apply dark:bg-gray-900
+}
+</style>
